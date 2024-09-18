@@ -1,12 +1,28 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import React from "react";
 import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import SideBar from "./components/SideBar";
+import NavBar from "./components/NavBar";
+import DashBoard from "./components/DashBoard";
 
-function App() {
-  const [count, setCount] = useState(0);
-
-  return <div className="border">testy</div>;
-}
+const App = () => {
+  return (
+    <BrowserRouter>
+      <div>
+        <div className="w-70 border fixed bg-white">
+          <SideBar />
+        </div>
+        <div className="fixed border md:static bg-main-bg dark:bg-main-dark-bg navbar">
+          <NavBar />
+        </div>
+        <div>
+          <Routes>
+            <Route path="/" element={<DashBoard/>} />
+          </Routes>
+        </div>
+      </div>
+    </BrowserRouter>
+  );
+};
 
 export default App;
