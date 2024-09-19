@@ -15,7 +15,10 @@ const Products = () => {
         <div className="  w-full">
           <Banner />
         </div>
-        <div className="  w-full">
+        <div className=" flex justify-between w-full space-x-4">
+          <Card />
+          <Card />
+          <Card />
           <Card />
         </div>
       </div>

@@ -5,6 +5,8 @@ import SideBar from "./components/SideBar";
 import NavBar from "./components/NavBar";
 import DashBoard from "./components/DashBoard";
 import Products from "./components/Products";
+import Favorites from "./components/Favorites";
+import Inbox from "./components/Inbox";
 
 const App = () => {
   return (
@@ -21,6 +23,9 @@ const App = () => {
             <Route path="/" element={<DashBoard />} />
             <Route path="/Dashboard" element={<DashBoard />} />
             <Route path="/Products" element={<Products />} />
+            <Route path="/Favorites" element={<Favorites />} />
+            <Route path="/Inbox" element={<Inbox />} />
+
           </Routes>
         </div>
       </div>
