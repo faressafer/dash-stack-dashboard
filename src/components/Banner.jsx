@@ -3,9 +3,9 @@ import banner from "../assets/banner.png";
 
 const Banner = () => {
   return (
-    <div className="h-[346px] border rounded-[14px] bg-[#4880FF]">
+    <div className="h-[346px]  rounded-[14px] bg-[#4880FF]">
       <div className="p-6 text-white h-full flex ">
-        <div className="border h-full w-[41px] flex items-center justify-start mr-7">
+        <div className=" h-full w-[41px] flex items-center justify-start mr-7">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="41"
@@ -26,7 +26,7 @@ const Banner = () => {
             />
           </svg>
         </div>
-        <div className="justify-between flex border w-full">
+        <div className="justify-between flex  w-full">
           <div className="flex flex-col justify-between w-[413px]">
             <p className="text-white font-nunito-sans text-base font-semibold leading-[30px]">
               September 12-22
@@ -43,7 +43,7 @@ const Banner = () => {
               </span>
             </button>
           </div>
-          <div className="border h-full w-[41px] flex items-center justify-end ">
+          <div className=" h-full w-[41px] flex items-center justify-end ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="41"

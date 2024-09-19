@@ -12,10 +12,10 @@ const Products = () => {
         <h1 className="text-[#202224] font-nunito-sans text-[32px] font-bold tracking-[-0.114px]">
           Products
         </h1>
-        <div className=" border w-full">
+        <div className="  w-full">
           <Banner />
         </div>
-        <div className=" border w-full">
+        <div className="  w-full">
           <Card />
         </div>
       </div>
