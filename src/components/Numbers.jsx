@@ -67,6 +67,9 @@ const Numbers = () => {
             </p>
           </div>
         </div>
+
+
+        
         <div
           className="w-1/4 h-[161px] border rounded-[14px] bg-white p-4 flex flex-col justify-between "
           style={{ boxShadow: "6px 6px 54px 0px rgba(0, 0, 0, 0.05)" }}

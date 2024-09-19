@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import SideBar from "./components/SideBar";
 import NavBar from "./components/NavBar";
 import DashBoard from "./components/DashBoard";
+import Products from "./components/Products";
 
 const App = () => {
   return (
@@ -17,7 +18,9 @@ const App = () => {
         </div>
         <div>
           <Routes>
-            <Route path="/" element={<DashBoard/>} />
+            <Route path="/" element={<DashBoard />} />
+            <Route path="/Dashboard" element={<DashBoard />} />
+            <Route path="/Products" element={<Products />} />
           </Routes>
         </div>
       </div>
