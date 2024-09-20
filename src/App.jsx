@@ -6,7 +6,9 @@ import NavBar from "./components/NavBar";
 import DashBoard from "./components/DashBoard";
 import Products from "./components/Products";
 import Favorites from "./components/Favorites";
-import Inbox from "./components/Inbox";
+import Inbox from "./components/Inbox"; // This will manage subroutes
+import OrdersList from "./components/OrdersList";
+import Productstock from "./components/Productstock";
 
 const App = () => {
   return (
@@ -24,7 +26,10 @@ const App = () => {
             <Route path="/Dashboard" element={<DashBoard />} />
             <Route path="/Products" element={<Products />} />
             <Route path="/Favorites" element={<Favorites />} />
-            <Route path="/Inbox" element={<Inbox />} />
+            {/* The main Inbox route will load the Inbox component */}
+            <Route path="/Inbox/*" element={<Inbox />} />
+            <Route path="/OrderLists" element={<OrdersList />} />
+            <Route path="/Productstock*" element={<Productstock />} />
           </Routes>
         </div>
       </div>

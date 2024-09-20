@@ -12,7 +12,7 @@ const NavigationInbox = () => {
       </h4>
 
       {/* Inbox Link */}
-      <Link to="/inbox/InBox">
+      <Link to="/inbox/inBox">
         <div className="w-full h-[43px] rounded-md flex items-center border p-4 justify-between mt-1">
           <div className="flex space-x-2 items-center">
             <svg

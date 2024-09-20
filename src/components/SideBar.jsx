@@ -66,7 +66,7 @@ const SideBar = () => {
           </div>
         </Link>
 
-        <Link to="/order-lists" className="w-[240px] h-[50px]">
+        <Link to="/OrderLists" className="w-[240px] h-[50px]">
           <div className="ml-3 mr-3 h-full rounded-[6px]">
             <div className="flex m-3">
               <CiBoxList className="w-[25px] h-[25px] mr-5" />
