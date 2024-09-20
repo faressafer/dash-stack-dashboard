@@ -3,4 +3,4 @@
   publish = "dist"
 
 [context.production.environment]
-  NODE_VERSION = "16.0.0"  # Or the Node.js version you're using locally
+  NODE_VERSION = "20.0.0"  # Or the Node.js version you're using locally
