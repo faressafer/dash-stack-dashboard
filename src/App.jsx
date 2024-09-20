@@ -25,7 +25,6 @@ const App = () => {
             <Route path="/Products" element={<Products />} />
             <Route path="/Favorites" element={<Favorites />} />
             <Route path="/Inbox" element={<Inbox />} />
-
           </Routes>
         </div>
       </div>
