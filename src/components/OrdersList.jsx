@@ -3,7 +3,7 @@ import { HiOutlineFilter } from "react-icons/hi";
 import { IoChevronDown } from "react-icons/io5";
 
 const OrdersList = () => {
-  const orders = Array(20).fill({
+  const orders = Array(10).fill({
     id: "00001",
     name: "Christine Brooks",
     address: "089 Kutch Green Apt. 448",

@@ -9,6 +9,7 @@ import Favorites from "./components/Favorites";
 import Inbox from "./components/Inbox"; // This will manage subroutes
 import OrdersList from "./components/OrdersList";
 import Productstock from "./components/Productstock";
+import Pricing from "./components/Pricing";
 
 const App = () => {
   return (
@@ -29,7 +30,9 @@ const App = () => {
             {/* The main Inbox route will load the Inbox component */}
             <Route path="/Inbox/*" element={<Inbox />} />
             <Route path="/OrderLists" element={<OrdersList />} />
-            <Route path="/Productstock*" element={<Productstock />} />
+            <Route path="/Productstock" element={<Productstock />} />*
+            <Route path="/Pricing" element={<Pricing />} />
+
           </Routes>
         </div>
       </div>
