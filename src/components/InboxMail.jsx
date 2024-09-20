@@ -30,7 +30,7 @@ const InboxMail = () => {
 
       {mailItems.map((_, index) => (
         <div key={index} className="flex p-3 items-center justify-between">
-          <div className="justify-between flex w-2/5">
+          <div className="justify-start space-x-4 flex w-3/5">
             <input
               id={`default-checkbox-${index}`}
               type="checkbox"
