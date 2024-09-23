@@ -32,10 +32,10 @@ const Banner = () => {
               September 12-22
             </p>
             <h1 className="text-white font-nunito-sans text-[37px] font-extrabold leading-[48px]">
-              Enjoy free home delivery in this summer{" "}
+              Enjoy free home delivery in this summer
             </h1>
             <p className="text-white font-nunito-sans text-base font-semibold leading-[30px] opacity-80">
-              Designer Dresses - Pick from trendy Designer Dress.{" "}
+              Designer Dresses - Pick from trendy Designer Dress.
             </p>
             <button className="w-[156px] h-[44px] flex-shrink-0 rounded-[11px] bg-[#FF8743]">
               <span className="text-white font-nunito-sans text-sm font-bold leading-[28px] tracking-wide">
