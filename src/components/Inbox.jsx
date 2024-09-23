@@ -18,11 +18,7 @@ const Inbox = () => {
           {/* Define nested routes for the Inbox component */}
           <Routes>
             {/* Subroute to display InboxMail */}
-            <Route path="inbox" element={<InboxMail />} />
-            <Route path="inbox" element={<InboxMail />} />
-            <Route path="inbox" element={<InboxMail />} />
-            <Route path="inbox" element={<InboxMail />} />
-            <Route path="inbox" element={<InboxMail />} />
+            <Route path="/" element={<InboxMail />} />
             <Route path="inbox" element={<InboxMail />} />
           </Routes>
         </div>
